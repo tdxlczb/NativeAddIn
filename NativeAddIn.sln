@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeAddIn", "NativeAddIn\NativeAddIn.vcxproj", "{BF092BD5-D3D4-420A-9982-26270DEC868E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NativeAddInPS", "NativeAddIn\NativeAddInPS.vcxproj", "{EAEF79EF-9602-4FD2-AF84-D8B4E75B6D6A}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BF092BD5-D3D4-420A-9982-26270DEC868E} = {BF092BD5-D3D4-420A-9982-26270DEC868E}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BF092BD5-D3D4-420A-9982-26270DEC868E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BF092BD5-D3D4-420A-9982-26270DEC868E}.Debug|Win32.Build.0 = Debug|Win32
+		{BF092BD5-D3D4-420A-9982-26270DEC868E}.Release|Win32.ActiveCfg = Release|Win32
+		{BF092BD5-D3D4-420A-9982-26270DEC868E}.Release|Win32.Build.0 = Release|Win32
+		{EAEF79EF-9602-4FD2-AF84-D8B4E75B6D6A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EAEF79EF-9602-4FD2-AF84-D8B4E75B6D6A}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
